@@ -1,0 +1,27 @@
+nav {
+    opacity: 70%;
+    position: fixed;
+    padding: 5px;
+    top: 0;
+    left: 0;
+    right: 0;
+    font-family: 'Inconsolata', monospace;
+    width: 100%;
+    background-color: rgba(226, 186, 226, 0.466);
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  nav a {
+    float: left;
+    padding: 1px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 23px;
+    width: 33.33%;
+    text-align: center;
+  }
+  
+  nav a:hover {
+    text-shadow: 2px 2px rgba(134, 114, 143, 0.521);
+  }
